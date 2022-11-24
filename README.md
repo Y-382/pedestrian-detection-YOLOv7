@@ -99,6 +99,23 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inferen
     </a>
 </div>
 
+## Tracking
+
+On video:
+``` shell
+python track.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourvideo.mp4
+```
+
+On image:
+``` shell
+python track.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
+```
+
+<div align="center">
+    <a href="./">
+        <img src="./figure/horses_prediction.jpg" width="59%"/>
+    </a>
+</div>
 ## Acknowledgements
 
 <details><summary> <b>Expand</b> </summary>
